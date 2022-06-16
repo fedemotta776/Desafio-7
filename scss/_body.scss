@@ -1,0 +1,17 @@
+body {
+    background-color: $bg-claro;
+    font-family: montserrat;
+    display: grid;
+    grid-template-rows: 2fr 0.5fr auto 0.5fr;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-areas: 
+        "header header header"
+        "nav1 nav2 nav2"
+        "main main main"
+        "footer footer footer";
+
+    
+
+
+    
+}

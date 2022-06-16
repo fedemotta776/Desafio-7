@@ -1,0 +1,17 @@
+$bg-claro: white;
+$bg-oscuro: #1b1b1b;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@import "body";
+@import "header";
+@import "main";
+@import "footer";
+
+@mixin flex{
+    display :flex;
+    padding: 20px;
+
+}

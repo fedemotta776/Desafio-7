@@ -1,0 +1,40 @@
+header {
+    grid-area: header;
+    .imgBanner{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    }
+.imgNav {
+    grid-area: nav1;
+    @include flex;
+    background-color: $bg-oscuro;
+    img {
+        width: 70%;
+    }
+        }
+nav {
+    grid-area: nav2;
+    background-color: $bg-oscuro;
+    display: flex;
+    justify-content: flex-end;
+    .menu {
+        grid-area: nav2;
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 20px auto;
+        margin-right: 30px;
+        li {
+            padding: 20px 10px ;  
+            justify-content: flex-end; 
+            }
+        a {
+            text-decoration: none;
+            color: $bg-claro;
+            }
+        }
+    }
